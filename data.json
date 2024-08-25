@@ -1,0 +1,186 @@
+{
+    "users": {
+        "user1": {
+            "profilepic": "image/hzLogo.png",
+            "username": "HZ",
+            "handle": "@HogeschoolZeeland"
+        },
+        "user2": {
+            "profilepic": "image/miguelbrugge.png",
+            "username": "Miguel Brugge",
+            "handle": "@Miguel_Brugge"
+        }
+    },
+    "tweets": {
+        "tweet1": {
+            "user": "user1",
+            "text": "What is your name?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Miguel Brugge"
+                }
+            ]
+        },
+        "tweet2": {
+            "user": "user1",
+            "text": "What is your age?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "20"
+                }
+            ]
+        },
+        "tweet3": {
+            "user": "user1",
+            "text": "Where do you live?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Breskens"
+                }
+            ]
+        },
+        "tweet4": {
+            "user": "user1",
+            "text": "What is your living situation?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "With parents / caretakers"
+                }
+            ]
+        },
+        "tweet5": {
+            "user": "user1",
+            "text": "Which prior education have you completed?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "MBO"
+                }
+            ]
+        },
+        "tweet6": {
+            "user": "user1",
+            "text": "What profile (or subjects / courses) did you do in your prior education? ",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Software Development"
+                }
+            ]
+        },
+        "tweet7": {
+            "user": "user1",
+            "text": "Have you followed a programme on a university of applied sciences or a university before? ",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "No"
+                }
+            ]
+        },
+        "tweet8": {
+            "user": "user1",
+            "text": "Which study choice check activities have you done? (you can select multiple answers)",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Open day"
+                }
+            ]
+        },
+        "tweet9": {
+            "user": "user1",
+            "text": "What do you see yourself doing after completing the program? For example what profession or role interests you? why? and what do you hope to have learned in four years?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "After completing this study I would like to have a job within software development. I am not sure yet if i want to do sw engineering, fullstack, front-end or mainly back-end, but that's what I want to find out. I want to get more experience as a programmer to see what fits me best and ofcourse to be a better developer not just with code but also working within an agile team."
+                }
+            ]
+        },
+        "tweet10": {
+            "user": "user1",
+            "text": "Do you have a (part-time) job?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Yes"
+                }
+            ]
+        },
+        "tweet11": {
+            "user": "user1",
+            "text": "How many hours do you work (approximately) a week? ",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "10-15"
+                }
+            ]
+        },
+        "tweet12": {
+            "user": "user1",
+            "text": "Do you have a hobby for example or an interest that you would like to share something about?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "As of right now my hobbys are mainly programming. I like to do side projects to learn new programming concepts or tools. Other than that an hobby a few years back was to make games on Roblox. I learned skills like photo editing, scripting and 3D modeling."
+                }
+            ]
+        },
+        "tweet13": {
+            "user": "user1",
+            "text": "What are your strengths?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Planning: As a Scrum master I was able to plan meetings a head of time so all were attended by my (and sometimes other) teams. Motivation: I always do what I have to do, even if I don't want to do it at all. "
+                }
+            ]
+        },
+        "tweet14": {
+            "user": "user1",
+            "text": "What are your weaknesses? ",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Shyness: I tend to be shy with people I haven't met yet."
+                }
+            ]
+        },
+        "tweet15": {
+            "user": "user1",
+            "text": "Which opportunities do you see?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Current Skills: Because I did Software Development on the MBO, I am not new to programming and working inside a agile devOps team I also have used my skills to build and maintain a portfolio website"
+                }
+            ]
+        },
+        "tweet16": {
+            "user": "user1",
+            "text": "Which threats do you see?",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "Time: Altough planning isn't new for me, I still have a job and have to travel a bit so I need to make sure that doesn't get in the way"
+                }
+            ]
+        },
+        "tweet17": {
+            "user": "user1",
+            "text": "Which questions do you have about your programme or your study choice? ",
+            "replies": [
+                {
+                    "user": "user2",
+                    "text": "None. Everything is clear for now 😎"
+                }
+            ]
+        }
+    }
+}

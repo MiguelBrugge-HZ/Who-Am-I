@@ -1,0 +1,92 @@
+:root {
+    --background-color: black;
+    --border-color: rgba(231, 233, 234, 0.181);
+    --hover-background-color: rgba(231, 233, 234, 0.1);
+    --tweet-hover-color: rgba(231, 233, 234, 0.03);
+    --scrollbar-thumb-color: rgba(231, 233, 234, 0.1);
+    --text-color: white;
+}
+
+body {
+    background-color: var(--background-color) !important;
+    overflow: hidden;
+}
+
+ul li:hover, #profile:hover {
+    background-color: var(--hover-background-color);
+    cursor: pointer;
+}
+
+#feed {
+    border-left: solid 2px var(--border-color);
+    border-right: solid 2px var(--border-color);
+}
+
+.tweet {
+    border-bottom: solid 2px var(--border-color);
+    cursor: pointer;
+}
+
+.tweet:hover {
+    background-color: var(--tweet-hover-color);
+}
+
+#search-bar {
+    background-color: var(--hover-background-color);
+}
+
+#search-bar input {
+    background-color: transparent !important;
+    color: var(--text-color);
+}
+
+input:focus {
+    outline: none;
+}
+
+.trend-item {
+    border: solid 2px var(--border-color);
+}
+
+.arrow-back:hover {
+    background-color: var(--border-color);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color);
+    border-radius: 6px;
+}
+
+@media (max-width: 1300px) {
+    #trends {
+        display: none !important;
+    }
+    #feed {
+        width: 75% !important;
+    }
+    #navigation i {
+        display: none;
+    }
+    .container {
+        max-width: max-content !important;
+    }
+}
+
+@media (max-width: 800px) {
+    #navigation {
+        display: none !important;
+    }
+    #feed {
+        width: 100% !important;
+    }
+}
